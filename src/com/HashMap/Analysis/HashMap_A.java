@@ -27,7 +27,7 @@ public class HashMap_A {
         System.out.println(i);
         LinkedList<Integer> res = new LinkedList<>();
         res.add(1);
-        res.addAll(Collections.singleton(2));
+        res.add(2);
         System.out.println(res.size());;
         LinkedList<Integer> q = new LinkedList<>();
         //offer是从后面插入

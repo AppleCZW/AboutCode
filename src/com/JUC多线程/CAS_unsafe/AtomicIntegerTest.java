@@ -17,7 +17,7 @@ public class AtomicIntegerTest {
         return count;
     }
     //使用Ato之后
-    private AtomicInteger count1 = new AtomicInteger();
+    private final AtomicInteger count1 = new AtomicInteger();
     public void increment1() {
         count1.incrementAndGet();
     }
